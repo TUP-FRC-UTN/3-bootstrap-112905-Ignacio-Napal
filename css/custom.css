@@ -1,9 +1,6 @@
 a img {
   height: 50px;
 }
-body {
-  background-color: #007bff;
-}
 h1 {
   color: #69dfe2;
 }
@@ -14,18 +11,6 @@ h1 {
   box-shadow: 2px 1px 20px grey;
   font-weight: bold;
 }
-h1:hover,
-#contact-section p:hover {
-  color: white;
-  cursor: pointer;
-}
-
-#contact-section button {
-  background-color: #22356d;
-  color: #69dfe2 !important;
-  border: none;
-}
-
 h4 {
   color: #22356d !important;
   background: rgb(232, 255, 0);
@@ -40,11 +25,39 @@ h4 {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
+h5 {
+  color: #69dfe2;
+}
+h1:hover,
+#contact-section p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#contact-section button {
+  background-color: #22356d;
+  color: #69dfe2 !important;
+  border: none;
+}
+
 #contact-section {
-  background: repeat-x url("/assets/contact-court.jpg");
+  background: repeat-x url("/assets/img/contact-court.jpg");
   height: 92vh;
 }
 
 #shop-section {
   background-color: white;
+}
+
+.privacy-policy {
+  background: url("/assets/img/about-court.jpg") no-repeat center center fixed;
+}
+#myCarousel {
+  width: 100%;
+  background-color: #22356d;
+}
+#myCarousel img {
+  height: 100vh !important;
+  -o-object-fit: cover;
+  object-fit: scale-down;
 }
